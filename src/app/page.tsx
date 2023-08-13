@@ -1,7 +1,10 @@
 import Image from 'next/image'
 
 export default function Home() {
-  return (
-    <h1>My firt NExt Js App</h1>
+  return (<div>
+
+    <h1 className="text-3xl font-bold underline">Hello World !</h1>
+    <p>This is A Paragraph</p>
+  </div>
   )
 }
